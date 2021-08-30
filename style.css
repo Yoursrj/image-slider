@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box ;
+}
+.carousel-container{
+    position: relative;
+    width: 100%;
+    border: 10px solid rgba(34, 34, 32, 0.507);   
+   
+    
+}
+.carousel-slide img{  
+    width: 100%;   
+}
+
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 8px 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.next{
+right: 10px;
+top: 30%;
+}
+.prev{
+    left: 10px;
+    top: 30%;
+}
+.carousel-slide{
+    display: none;
+}
